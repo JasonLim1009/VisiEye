@@ -2,6 +2,7 @@ import React from 'react'
 import styled from 'styled-components';
 import Banner from '../Banner';
 import Logo from '../sections/Logo';
+import Package from '../sections/Package';
 import Facebook from '../../Icons/Facebook';
 import Instagram from '../../Icons/Instagram';
 import Twitter from '../../Icons/Twitter';
@@ -132,6 +133,7 @@ const Footer = () => {
       <Container >
         <Left>
           <Logo />
+          <Package />
           <IconList>
             <a href='https://www.facebook.com/Lindungi-Mata-109578888781581' target='blank' rel='noopener noreferrer'>
               <Facebook />
