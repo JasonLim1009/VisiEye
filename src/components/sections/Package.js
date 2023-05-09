@@ -128,7 +128,6 @@ text-transform: capitalize;
 color: ${props => `rgba(${props.theme.textRgba}, 0.9)`};
 font-weight: 500;
 text-decoration: line-through;
-text-decoration-color: red;
 `
 
 const MemberComponent = ({ img, name = '', position = '', pomosi ='', kotak ='' }) => {
