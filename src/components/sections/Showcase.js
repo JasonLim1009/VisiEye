@@ -31,14 +31,14 @@ overflow: hidden;
   animation-duration: 35s;
 
   @media (max-width: 30em) {
-    animation-duration: 10s;
+    animation-duration: 20s;
   }
 }
 &>*:last-child {
   animation-duration: 25s;
 
   @media (max-width: 30em) {
-    animation-duration: 10s;
+    animation-duration: 20s;
   }
 }
 `
