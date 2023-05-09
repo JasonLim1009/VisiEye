@@ -28,14 +28,14 @@ position: relative;
 overflow: hidden;
 
 &>*:first-child {
-  animation-duration: 20s;
+  animation-duration: 35s;
 
   @media (max-width: 30em) {
-    animation-duration: 15s;
+    animation-duration: 10s;
   }
 }
 &>*:last-child {
-  animation-duration: 15s;
+  animation-duration: 25s;
 
   @media (max-width: 30em) {
     animation-duration: 10s;

@@ -128,7 +128,7 @@ const Team = () => {
   return (
     <Section id='team'>
     <ConfettiComponent />
-      <Title>Team</Title>
+      <Title>Testimoni</Title>
       <Container>
         <MemberComponent img={img1} name='SITI AISHAH BT HJ IBRAHIM (57thn)' position='Selaput ,baru makan sekotak visiEYE sudah berkesan bagus!' />
         <MemberComponent img={img2} name='Sudiman salatulla (62thn)' position='Katarak 2thn ,makan produk visiEYE minggu ke 4 sudah kurang 80% Katarak.' />
@@ -136,9 +136,9 @@ const Team = () => {
         <MemberComponent img={img4} name='Rariani bt Amar (38thn)' position='Rabun & Silau ,selepas makan produk visiEYE 1 set 4 kotak selesai masalah matanya.' />
         <MemberComponent img={img5} name='Muh Nazri (45thn)' position='Selaput ,makan produk visiEYE hari ke 4 sudah dapat berkesan.' />
         <MemberComponent img={img6} name='Indai Nanang (52thn)' position='Rabun Dekat  pelanggan ini baru makan 6 hari shj sdh berkesan bgs👍' />
-        <MemberComponent img={img7} name='Zuhaii suddin (41thn)' position='Blockchain Specialist' />
+        <MemberComponent img={img7} name='Zuhaii suddin (41thn)' position='Cegah Rabun Jauh dengan Produk Berkualiti Tinggi visiEYE!' />
         <MemberComponent img={img8} name='Halijah Asri (10thn)' position='Memang berkesan bagus,baru sekotak Silau sudah hilang💪' />
-        <MemberComponent img={img9} name='Mohd bin Arfin (56thn)' position='Graphic Designer' />
+        <MemberComponent img={img9} name='Mohd bin Arfin (56thn)' position='VisiEYE - Solusi Tepat untuk Floaters' />
       </Container>
     </Section>
   )
