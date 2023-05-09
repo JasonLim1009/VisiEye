@@ -116,6 +116,108 @@ a {
 }
 `
 
+const BtnContainer = styled.div`
+width: 35%;
+display: flex;
+justify-content: flex-end;
+
+@media (max-width: 48em) {
+  width: 100%;
+  justify-content: center;
+}
+`
+
+const JoinNow = styled.button`
+display: inline-block;
+background-color: #000;
+color: #fff;
+outline: none;
+border: none;
+font-weight: 600;
+font-size: ${props => props.theme.fontlg};
+padding: 1.5rem 3rem;
+border-radius: 50px;
+cursor: pointer;
+transition: all 0.2s ease;
+position: relative;
+
+@media (max-width: 48em) {
+  padding: 1rem 2rem;
+}
+@media (max-width: 30em) {
+  padding: 0.5rem 2rem;
+  font-size: ${props => props.theme.fontsm};
+}
+
+&:hover {
+    transform: scale(0.9);
+}
+
+&::after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(0);
+    border: 2px solid #000;
+    width: 100%;
+    height: 100%;
+    border-radius: 50px;
+    transition: all 0.2s ease;
+}
+
+&:hover::after {
+    transform: translate(-50%, -50%) scale(1);
+    padding: 0.3rem;
+}
+`
+
+const Contact = styled.button`
+display: inline-block;
+background-color: ${props => props.theme.body};
+color: ${props => props.theme.text};
+outline: none;
+border: none;
+font-weight: 600;
+font-size: ${props => props.theme.fontsm};
+padding: 1.5rem 3rem;
+border-radius: 50px;
+cursor: pointer;
+transition: all 0.2s ease;
+position: relative;
+
+@media (max-width: 48em) {
+  padding: 1rem 2rem;
+}
+@media (max-width: 30em) {
+  padding: 0.5rem 2rem;
+  font-size: ${props => props.theme.fontsm};
+}
+
+&:hover {
+    transform: scale(0.9);
+}
+
+&::after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(0);
+    border: 2px solid ${props => props.theme.body};
+    width: 100%;
+    height: 100%;
+    border-radius: 50px;
+    transition: all 0.2s ease;
+}
+
+&:hover::after {
+    transform: translate(-50%, -50%) scale(1);
+    padding: 0.3rem;
+}
+`
+
+
 const Footer = () => {
 
   const scrollTo = (id) => {
@@ -134,11 +236,25 @@ const Footer = () => {
         <Left>
           <Logo />
           <Package />
+          <BtnContainer>
+            <a href='https://docs.google.com/forms/d/e/1FAIpQLScEbqibw1-38mEhhA9NWhidSuW10NMPPt0-JiRYcIJ6yU648Q/viewform?usp=sf_link'>
+              <JoinNow>
+              Order Now
+              </JoinNow>
+            </a>
+            {/* <Button text='VisiEye' link='https://wa.link/f0wssi' /> */}
+          </BtnContainer>
+          
           <IconList>
-            <a href='https://www.facebook.com/Lindungi-Mata-109578888781581' target='blank' rel='noopener noreferrer'>
+            <a href='https://wa.link/f0wssi'>
+              <Contact>
+              WhatsApp Us
+              </Contact>
+            </a>
+            {/* <a href='https://www.facebook.com/Lindungi-Mata-109578888781581' target='blank' rel='noopener noreferrer'>
               <Facebook />
             </a>
-            {/* <a href='https://www.instagram.com/jasonlim1009/?igshid=YmMyMTA2M2Y%3D' target='blank' rel='noopener noreferrer'>
+            <a href='https://www.instagram.com/jasonlim1009/?igshid=YmMyMTA2M2Y%3D' target='blank' rel='noopener noreferrer'>
               <Instagram />
             </a>
             <a href='https://www.twitter.com/' target='blank' rel='noopener noreferrer'>
@@ -164,7 +280,7 @@ const Footer = () => {
         </span>
         <span>
         2.1,Tower 9 Avenue 5,<br/>The Horizon Bangsar South
-        No 8,<br/>ln Kerinchi 59200 KL
+        No 8,<br/>ln Kerinchi 59200 Kuala Lumpur
           {/* Made with &#10084; by <a href='https://wa.link/f0wssi' target='_blank' rel='noopener noreferrer'>
             JasonLim
           </a> */}

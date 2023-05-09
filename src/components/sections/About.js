@@ -151,7 +151,6 @@ const About = () => {
           <a href='https://wa.link/f0wssi' target='_blank' rel='noopener noreferrer'>
             <ButtonContainer>
               <ThemeProvider theme={dark}>
-                  <Button text='VisiEye' />
                 {/* <Button text='VisiEye' link='https://wa.link/f0wssi' /> */}
               </ThemeProvider>
             </ButtonContainer>

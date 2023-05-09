@@ -130,9 +130,9 @@ const TypeWriterText = () => {
             </Title>
             <SubTitle>Gejala Sakit Mata? Cuba Rawatan Ini.</SubTitle>
             <ButtonContainer>
-                <a href='https://wa.link/f0wssi' target='_blank' rel='noopener noreferrer'>
+                {/* <a href='https://wa.link/f0wssi' target='_blank' rel='noopener noreferrer'>
                     <Button text='VisiEye' />
-                </a>
+                </a> */}
                 {/* <Button text='VisiEye' link='https://wa.link/f0wssi' /> */}
             </ButtonContainer>
         </>
