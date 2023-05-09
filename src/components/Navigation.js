@@ -157,16 +157,16 @@ const Navigation = () => {
           <MenuItem onClick={() => scrollTo('faq')}>Faq</MenuItem>
           <MenuItem>
             <div className='mobile'>
-              <a href='https://wa.link/f0wssi' target='_blank'>
+              {/* <a href='https://wa.link/f0wssi' target='_blank'>
                 <Button text='VisiEye'/>
-              </a>
+              </a> */}
             </div>
           </MenuItem>
         </Menu>
         <div className='desktop'>
-          <a href='https://wa.link/f0wssi' target='_blank'>
+          {/* <a href='https://wa.link/f0wssi' target='_blank'>
             <Button text='VisiEye'/>
-          </a>
+          </a> */}
         </div>
       </NavBar>
     </Section>

@@ -141,11 +141,11 @@ const Banner = () => {
       </ImgContainer>
       <Title>Mata Merupakan <br /> Organ Anugerah Tuhan</Title>
       <BtnContainer>
-        <a href='https://wa.link/f0wssi'>
+        {/* <a href='https://wa.link/f0wssi'>
           <JoinNow>
           VisiEye
           </JoinNow>
-        </a>
+        </a> */}
         {/* <Button text='VisiEye' link='https://wa.link/f0wssi' /> */}
       </BtnContainer>
     </Section>
