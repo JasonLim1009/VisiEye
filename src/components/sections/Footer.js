@@ -246,7 +246,7 @@ const Footer = () => {
           </BtnContainer>
           
           <IconList>
-            <a href='https://wa.link/f0wssi'>
+            <a href='https://wa.link/ziqijw'>
               <Contact>
               WhatsApp Us
               </Contact>
