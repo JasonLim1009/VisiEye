@@ -149,9 +149,9 @@ const Package = () => {
     <ConfettiComponent />
       <Title>Sekarang Masuk Order<br/>FREE SHIPPING Boleh COD</Title>
         <Container>
-            <MemberComponent img={img1} name='Package A' position='Harga Asal RM 199' pomosi='Harga Pomosi RM 149' kotak='( 1 kotak )' />
-            <MemberComponent img={img2} name='Package B' position='Harga Asal RM 597' pomosi='Harga Pomosi RM 299' kotak='( 2 kotak Free 1 kotak )' />
-            {/* <MemberComponent img={img3} name='Package C' position='Harga Asal RM 1194' pomosi='Harga Pomosi RM 499'/> */}
+            <MemberComponent img={img1} name='Package A' position='Harga Asal RM 199' pomosi='Harga Promosi RM 149' kotak='( 1 kotak )' />
+            <MemberComponent img={img2} name='Package B' position='Harga Asal RM 597' pomosi='Harga Promosi RM 299' kotak='( 2 kotak Free 1 kotak )' />
+            {/* <MemberComponent img={img3} name='Package C' position='Harga Asal RM 1194' pomosi='Harga Promosi RM 499'/> */}
         </Container>
     </Section>
   )
