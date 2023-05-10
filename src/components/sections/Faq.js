@@ -88,25 +88,25 @@ const Faq = () => {
       <Title>Faq</Title>
       <Container>
         <Box>
-          <Accordion title='What is VisiEye and how does it work?' >
-          VisiEye is a dietary supplement that is designed to support eye health and protect against eye-related symptoms caused by prolonged screen time. It contains a unique blend of natural ingredients that help to reduce eye strain and improve visual performance.
+          <Accordion title='Apakah VisiEye dan bagaimana ia berfungsi?' >
+          VisiEye ialah suplemen pemakanan yang direka untuk menyokong kesihatan mata dan melindungi daripada gejala berkaitan mata yang disebabkan oleh masa skrin yang berpanjangan. Ia mengandungi gabungan unik bahan semulajadi yang membantu mengurangkan ketegangan mata dan meningkatkan prestasi visual.
           </Accordion>
-          <Accordion title='Who can use VisiEye?' >
-          VisiEye can be used by anyone who experiences eye strain, dry eyes, or other eye-related symptoms caused by prolonged screen time. This includes students, office workers, gamers, and anyone who uses digital devices for work or leisure.
+          <Accordion title='Siapa yang boleh menggunakan VisiEye?' >
+          VisiEye boleh digunakan oleh sesiapa sahaja yang mengalami ketegangan mata, mata kering, atau gejala berkaitan mata lain yang disebabkan oleh masa skrin yang berpanjangan. Ini termasuk pelajar, pekerja pejabat, pemain permainan dan sesiapa sahaja yang menggunakan peranti digital untuk bekerja atau beriadah.
           </Accordion>
-          <Accordion title='Is VisiEye safe to use?' >
-          Yes, VisiEye is completely safe to use. It is made from natural ingredients and has been tested by industry experts to ensure its safety and efficacy.
+          <Accordion title='Adakah VisiEye selamat digunakan?' >
+          Ya, VisiEye benar-benar selamat untuk digunakan. Ia diperbuat daripada bahan semulajadi dan telah diuji oleh pakar industri untuk memastikan keselamatan dan keberkesanannya.
           </Accordion>
         </Box>
         <Box>
-          <Accordion title='How long does it take to see results from VisiEye?' >
-          The length of time it takes to see results from VisiEye can vary depending on the individual and their specific eye health needs. However, most users report experiencing noticeable improvements in eye health and visual performance within a few weeks of starting to take the supplement.
+          <Accordion title='Berapa lamakah masa yang diambil untuk melihat hasil daripada VisiEye?' >
+          Tempoh masa yang diambil untuk melihat hasil daripada VisiEye boleh berbeza-beza bergantung pada individu dan keperluan kesihatan mata khusus mereka. Walau bagaimanapun, kebanyakan pengguna melaporkan mengalami peningkatan yang ketara dalam kesihatan mata dan prestasi visual dalam beberapa minggu selepas mula mengambil suplemen.
           </Accordion>
-          <Accordion title='How should I take VisiEye?' >
-          For best results, take one capsule of VisiEye daily with a meal. It is important to follow the recommended dosage and consult with a healthcare professional before starting any new supplement regimen.
+          <Accordion title='Bagaimana saya perlu mengambil VisiEye?' >
+          Untuk hasil terbaik, ambil satu kapsul VisiEye setiap hari dengan hidangan. Adalah penting untuk mengikuti dos yang disyorkan dan berunding dengan profesional penjagaan kesihatan sebelum memulakan sebarang rejimen suplemen baharu.
           </Accordion>
-          <Accordion title='Can VisiEye be used with other supplements or medications?' >
-          As with any dietary supplement, it is important to consult with a healthcare professional before taking VisiEye with other supplements or medications. They can advise you on any potential interactions or contraindications.
+          <Accordion title='Bolehkah VisiEye digunakan dengan suplemen atau ubat lain?' >
+          Seperti mana-mana suplemen pemakanan, adalah penting untuk berunding dengan profesional penjagaan kesihatan sebelum mengambil VisiEye dengan suplemen atau ubat lain. Mereka boleh menasihati anda tentang sebarang kemungkinan interaksi atau kontraindikasi.
           </Accordion>
           {/* <Accordion title='Does VisiEye come with a guarantee?' >
           Yes, VisiEye comes with a satisfaction guarantee. If for any reason you are not satisfied with the product, you can contact the manufacturer for a full refund within a certain time frame.
